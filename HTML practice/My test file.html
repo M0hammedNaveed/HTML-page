@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<style>
+.display{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;}
+ .animation {
+    animation-fill-mode: initial;
+    animation-name: rainbow-colors;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes rainbow-colors{
+    0% {
+      background-color: blue;
+    }
+    25%{
+      background-color: orange;
+    }
+    50%{
+      background-color: green;
+    }
+    75%{
+      background-color: yellow;
+    }
+    100% {
+      background-color: black;
+    }
+  }
+.big:hover{
+   transform:scale(1.5);}
+
+a:hover{
+   color: red;}
+h2{position: relative;
+   top: 70px;}
+h3{
+   position: relative;
+   bottom: 15px;
+   background-color: rgba(235,198,222,0.7);
+   text-transform: uppercase;}
+img{opacity: 0.8;}
+.box{
+   box-shadow: 0 20px 40px rgba(0,0,0,0.9), 0 10px 10px rgba(0,0,0,0.5);
+   height: 220px;
+   width: 250px;
+   padding: 15px;
+   margin: 10px 1000px 5px 5px;
+   border: 1px solid;
+   border-radius: 5px;}
+.box-text{
+   position: relative;
+   bottom:18px;
+   padding: -5px;
+   text-align: justify;}
+body{
+   background:linear-gradient(to left, #ffffff 0%, #99ff99 100%);}
+[type='radio']{
+   margin:25px 15px 25px 15px;}
+[type='checkbox']{
+   margin:25px 15px 25px 15px;}		
+h1{
+   position: fixed;
+   z-index:1;
+   top: 0px;
+   width: 100%;
+   background: linear-gradient(to right, #cc0066 0%, #3366ff 100%);
+   font-size:45px;
+   font-family:fantasy;}
+.average-image{
+   width: 350px;}
+.border{
+   border-width:5px;
+   border-color:red;
+   border-style:solid;
+   border-radius:30%}
+.sky-background{
+  background-color:rgb(230, 240, 255);}
+</style>
+<head><h1 style="color:orange; text-align:center">This is my page for testing my skills</h1></head>
+<h2 align="center" style="color:red;" class="animation">Mohammed Naveed</h2>
+<main>
+<p><a href="#11">Click here to go to bottom</a></p>
+  <p align="left"><a href=#><img class="average-image border" src='file:IMG_20180817_105108.JPG' alt='Profile Pic.'></a></p>
+  <p>This picture is of a great person<strong> (Mohammed Naveed)</strong>, who is admired by everyone in his family.</p>
+  <p>Thank you for reading this patiently</p>
+<p>Click here for <a href="https://www.linkedin.com/in/mohammed-naveed-588803161/">Naveed's Linkden Profile</a></p>
+<div class="sky-background box"><h3 class="box-text">List of Places</h3>
+<ul class="box-text">
+ <li>Bangalore</li>
+ <li>Mumbai</li>
+ <li>Hyderabad</li>
+</ul>
+<h3 class="box-text">Years</h3>
+<ol class="box-text">
+ <li>2011</li>
+ <li>2014</li>
+ <li>2015</li>
+ <li>2018</li>
+</ol></div>
+<form action="Result.html">
+<input format="text" placeholder="Share your feedback here">
+<button type="submit">Submit Feedback</button> 
+<label><input type="date" name="date" required><strong>Today's date</strong></label>
+<label><input type="radio" name="Good-Bad" required class="big">Good</label>
+<label><input type="radio" name="Good-Bad" required class="big">Bad</label>
+<label for="need overall improvement"><input id="need overall improvement" type="checkbox" name="feedback" value="Overall">Need overall Improvement</lable>
+<label for="design can be updated"><input id="design can be updated" type="checkbox" name="feedback" value="Design">Design can be updated</lable>
+<label for="color not appropriate"><input id="color not appropriate" type="checkbox" name="feedback" value="Color">Color not appropriate</lable>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</main>
+<p id="11">End of the Page(still improvising)</p>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<main>
+<style>
+body{align-text: center;
+         background: linear-gradient(to bottom, #99ccff 0%, #ffcc00 100%);
+    }
+.box{background: url(https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHRleHQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+     border: 1px solid;
+     border-radius: 4px;
+     height: 750px;
+     width: 500px;
+     box-shadow: 0 30px 60px rgba(0,0,0,0.8), 0 20px 30px rgba(1,0,0,0.5);}
+.box-text{
+     padding: 10px;}
+#submit{background: blue;
+        color: white;}
+#email{
+     width: 180px;
+     background: rgb(216, 248, 184);}
+#name{
+      width: 180px;
+     background: rgb(216, 248, 184);}
+#number{
+     background: rgb(216, 248, 184);
+     width: 90px;}
+#dropdown{
+     background: rgb(216, 248, 184);
+     width: 90px;}
+#name-label{font-family: Georgia, serif;}
+#email-label{font-family: Georgia, serif;}
+#number-label{font-family: Georgia, serif;}
+#dropdown-label{font-family: Georgia, serif;}
+#gender-label{font-family: Georgia, serif;}
+#checkbox-label{font-family: Georgia, serif;}
+#checkbox-group{border: 1px solid;
+                background: rgb(216, 248, 184);
+                width: 210px;
+                font-family: Georgia, serif;}
+#feedback-label{font-family: Georgia, serif;}
+#india-label{}
+#australia-label{}
+#us-label{}
+#male-label{border: 1px solid;
+            background: rgb(216, 248, 184);}
+#female-label{border: 1px solid;
+            background: rgb(216, 248, 184);
+            width:100px;}
+textarea:{background-color: rgb(216, 248, 184);}
+</style>
+<h1 id="title">Survey form to know you better</h1>
+<p id="description">Please fill out the required feilds so that we could know you in a better way</p>
+<form class="box" id="survey-form" action="#">
+<div class="box-text"><p><label id="name-label">Name: <input id="name" placeholder="Enter your Full Name" required></label></p>
+<p><label id="email-label">Email ID: <input id="email" placeholder="Enter your Email address" type="email" required></label></p>
+<p><label id="number-label">How much would you rate your skills out of 10 (1 being the lowest & 10 as the highest): <input id="number" placeholder="Select a Number" type="number" min="1" step="1" max="10" required></label></p>
+<p id="dropdown-label">Please select an option to rate this survey: <label><select id="dropdown" required>
+<option id="poor" value="Poor">Poor</option>
+<option id="fair" value="Fair">Fair</option>
+<option id="good" value="Good">Good</option>
+<option id="excellent" value="Excellent">Excellent</option></select></label>
+<p id="gender-label">Select your gender: <label id="male-label"><input type="radio" name="gender" value="male" required id="male">Male</label>
+<label id="female-label"><input type="radio" name="gender" value="female" required id="female">Female</label></p>
+<p id="checkbox-label">Select the countries you would like to work: </p><div id="checkbox-group" required>
+<label id="india-label"><input type="checkbox" name="places" value="India" id="india">India</label>
+<label id="australia-label"><input type="checkbox" name="places" value="Australia" id="australia">Australia</label>
+<label id="us-label"><input type="checkbox" name="places" value="US" id="us">US</label></div>
+<p id="feedback-label">Additonal feedback or suggestions: <textarea style="background-color: rgb(216, 248, 184);" id"additional-comments" name="additonal-comments" rows="5" cols="50" ></textarea></p>
+<button id="submit">Submit</button>
+</div>
+</form>
+</main>
+</html>

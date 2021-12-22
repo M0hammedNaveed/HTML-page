@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<main class="back" style="margin-left: -7px;">
+<body>
+<style>
+
+#help-img{
+   height: 150px;
+   width: 100%;   
+   opacity: 0.8;
+}
+[type="submit"]{height: auto;
+       width: auto;
+       font-weight: bold;
+       background-color: rgb(63, 36, 184);
+}
+[type="submit"]:hover{
+   transform: scale(1.2);
+   background-color:rgb(61, 32, 194);
+}
+#email{
+   height: 18px;
+   width: 180px;
+   margin-right: 2.5mm;
+}
+#top-line{font-size: 13mm;
+          font-family:'Times New Roman', Times, serif;     
+          color:rgb(27, 4, 68);   
+          background-blend-mode: lighten;   
+}
+.all{font-size:6mm;}
+.back{background: linear-gradient(to right top, #6871d1, #6d7dce, #7588cb, #7f92c6, #8c9cc0, #85a5c9, #7eaed0, #77b7d4, #36c4d7, #00d0c4, #0cd79c, #6eda64);}
+.sub{font-size: 8mm;
+     font-family: sans-serif;
+     font-weight: bold;
+}
+.high{font-size: 12mm;
+      font-family: cursive;
+      text-align: center;
+      background-color: peachpuff;
+      width:100%;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#header-img{display:inline-flex;
+   width:120px;
+   height: 45px;
+   align-self:flex-start;
+}
+#nav-bar{align-items: flex-end;
+   position: fixed;
+}
+#header{
+   margin:-33px -5px 0px -5px;
+   position: fixed;
+   width:100%;
+}
+ul{float:left;
+   display: flex;
+   flex-direction: row;
+   margin-top: -50px;
+   margin-left: 150px;
+   list-style-type: none;  
+   }
+li a{
+     width: 150px;
+     margin-right: 50px;
+     flex-direction: row;
+     display:inline-block;
+     color:black;
+     text-align:center;
+     text-decoration: none;
+   }
+
+a:hover{background-color: skyblue;
+   border: solid;
+   transform: scale(1.5);
+   border-color: black;
+}
+
+#header{height: 45px;
+   border: 1px solid gray;
+   background: lightblue;
+}
+
+</style>
+<h1 id="header" style="padding-left: 5px;"><img src="https://e7.pngegg.com/pngimages/284/418/png-clipart-logo-cisco-systems-organization-brand-service-cisco-anyconnect-icon-blue-text.png" id="header-img"><nav id="nav-bar">
+<ul>
+<li><a href="#home"  class="nav-link">Home</a></li>
+<li><a href="#content" class="nav-link">Content</a></li>
+<li><a href="#help"  class="nav-link">Help</a></li>
+</ul>
+</nav></h1>
+<div id="home" style="text-align: center; padding-left: 5px;"><h1 style="padding-top: 50px;" id="top-line">Welcome to Lucifer Computer Technology</h1>
+<p><img src="https://ih1.redbubble.net/image.577476444.9923/pd,x500,macbook_air_13-pad,750x1000,f8f8f8.jpg"></p></div>
+<div id="content" style="padding-left: 5px;"><p class='high'>Smart and Safe way to Buy your Computer systems and Accesories</p>
+<p class="high">The Brand you could trust without any hesitation!</p>
+<p class="sub">We provide all kind of Computers Spares & Accesories</p>
+<p  class="all">Computer accessories are such products that make your experience working with your computer way more comfortable and easy. Some accessories like keyboards, mouse, router and the like are essential when you are working on your desktop. On the other hand, if you prefer working on your laptop, then you should have laptop bags, laptop skins, pen drives, external hard disks and the like essentially with you. On our product page, you can buy from a wide range of these from HP, Logitech, Lenovo, Dell and more, along with computer accessories price list to make it easy for you to browse and choose based on requirement and budget.</p>
+<p class='sub'>Please check out the available products on our page as mentioned below:</p>
+<ol class="all">
+   <li>Computer systems</li>
+   <li>Spares parts including: Monitor, Keyboards, Mouse, Hard-drives etc.,</li>
+   <li>Accesories such as Printers, Scanners, Fax machines etc.</li>
+</ol>
+<p class='sub'>Complete list of products available with us:</p>
+<ol class="all">
+   <li>Laptops.</li>
+   <li>Desktops.</li>
+   <li>Softwares.</li>
+   <li>Keyboards.</li>
+   <li>Mouse.</li>
+   <li>Hard disks.</li>
+   <li>Routers.</li>
+   <li>Surge Protectors.</li>
+   <li>Graphics Cards.</li>
+   <li>Ram - Memory cards.</li>
+   <li>Pen drives.</li>
+   <li>UPS.</li>
+</ol>
+<p  class="all" style="font-weight: bold;">We also provide service and warranty for selected products.</p>
+</div>
+<div style="text-align: center"><iframe width="500" id="video" height="350" src="https://www.youtube.com/embed/ExxFxD4OSZ0">Your browser doesn't support the video</iframe></div>
+<p class="sub">You can check out the video above for more info. on computer peripherals ↑</p>
+<form id="form" action="https://www.freecodecamp.com/email-submit" style="text-align: center;"><p class="all">Please enter your Email address to Subscribe for product updates:</p>
+   <input type="email" id="email" placeholder="Enter your Email" name="email" required>
+   <input type="submit" value="Submit" id="submit">
+</form>
+   &nbsp;
+<div id="help" style="text-align: center; padding-left: 5px;">
+   &nbsp;
+<img id="help-img" src="http://1.bp.blogspot.com/-fOein2UnPGU/UyaBQUD2EzI/AAAAAAAACsw/pCW8Dn_Z1kU/s1600/need-help-banner.jpg">
+<p class="sub">For any further assistance, please get in touch with us:</p>
+<p class="all"><strong>Email:</strong> lucifer@yahoo.in</p>
+<p class="all"><strong>Contact:</strong> 9876543210</p></div>
+&nbsp;
+<footer style="text-align: center; font-size: 5mm;">&copy; Copyright 2021 All rights reserved by Lucifer</footer>
+</body>
+</main>
+</html>
